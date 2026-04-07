@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <fieldset id="2">
+                <label for="2">User Information</label>
+                <br>
+                <div>
+                    <label for="user name">Enter your Name :</label>
+                    <input type="text" id="user name" required placeholder="User Name" autofocus>
+                </div>
+                <br>
+                <div>
+                    <label for="mail">Email : </label>
+                    <input type="email" id="mail">
+                </div>
+                <br>
+                <div>
+                    <label for="psw">Password: </label>
+                    <input type="password" id="psw">
+                </div>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <label> Contact Information</label>
+                <br>
+                <div>
+                    <label for="phone">Phone: </label>
+                    <input type="text" class="phone">
+                </div>
+                <br>
+                <div>
+                    <label for="Message">Message</label>
+                    <br>
+                    <textarea id="Message"></textarea>
+                </div>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset id="cub">
+                <label for="sub">Subscription</label>
+                <br>
+                <div>
+                    <label for="t">subscribe of new litter: </label>
+                    <input type="checkbox" id ="t" name="subscribe" value="subscribe">
+                    <br>
+                    <label for="tt">subscribe of new litter 2: </label>
+                    <input type="checkbox" id ="tt" name="subscribe" value="subscribe2">
+                </div>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <label>Preferred language </label>
+                <br>
+                <div>
+                    <label >select your prefer language: </label>
+                    <select name="language" id="lan">
+                        <option value="1">Arabic</option>
+                        <option value="2">English</option>
+                        <option value="3">france</option>
+                        <option value="4">germany</option>
+                    </select>
+                </div>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset id="feedback">
+                <label for="feadback">feedback</label>
+                <br>
+                <div>
+                    <label for="rate">Rate of services:</label>
+                    <input type="range" name="rate of service" id="rate" max="200" min="0" value="0" step="10">
+                </div>
+            </fieldset>
+        </div>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
